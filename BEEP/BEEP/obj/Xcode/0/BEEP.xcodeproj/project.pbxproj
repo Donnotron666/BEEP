@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		283978E60000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCA85840000000000000000 /* UIKit.framework */; };
+		9CF1C1900000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6028B700000000000000000 /* MapKit.framework */; };
+		1F0284B10000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2293914F0000000000000000 /* Foundation.framework */; };
+		126D66FA0000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15FE73980000000000000000 /* CoreGraphics.framework */; };
+		302AAAFD0000000000000000 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33BBB79B0000000000000000 /* Default-568h@2x.png */; };
+		55E139500000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EF203300000000000000000 /* Info.plist */; };
+		3388D47F0000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3719E11D0000000000000000 /* Entitlements.plist */; };
+		21B395690000000000000000 /* RootController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2544A2070000000000000000 /* RootController_iPhone.xib */; };
+		3E09173D0000000000000000 /* RootController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19A23DB00000000000000000 /* RootController_iPad.xib */; };
+		34D223080000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 38632FA60000000000000000 /* AppDelegate.h */; };
+		29EC1A120000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7D26B00000000000000000 /* AppDelegate.m */; };
+		2B08F4800000000000000000 /* RootController.h in Sources */ = {isa = PBXBuildFile; fileRef = 6419BE600000000000000000 /* RootController.h */; };
+		1B75047E0000000000000000 /* RootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F06111C0000000000000000 /* RootController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A102DA90000000000000000 /* BEEP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "BEEP.app"; path = "BEEP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BCA85840000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		D6028B700000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		2293914F0000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		15FE73980000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		33BBB79B0000000000000000 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8EF203300000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		3719E11D0000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		2544A2070000000000000000 /* RootController_iPhone.xib */ = {isa = PBXFileReference; name = "RootController_iPhone.xib"; path = "RootController_iPhone.xib"; sourceTree = "<group>"; };
+		19A23DB00000000000000000 /* RootController_iPad.xib */ = {isa = PBXFileReference; name = "RootController_iPad.xib"; path = "RootController_iPad.xib"; sourceTree = "<group>"; };
+		38632FA60000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		2D7D26B00000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		6419BE600000000000000000 /* RootController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RootController.h"; path = "RootController.h"; sourceTree = "<group>"; };
+		1F06111C0000000000000000 /* RootController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "RootController.m"; path = "RootController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1171E2C80000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283978E60000000000000000 /* UIKit.framework in Frameworks */,
+				9CF1C1900000000000000000 /* MapKit.framework in Frameworks */,
+				1F0284B10000000000000000 /* Foundation.framework in Frameworks */,
+				126D66FA0000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		318B54560000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				1C2508A20000000000000000 /* BEEP */,
+				3FCF86CE0000000000000000 /* Frameworks */,
+				26D82E7C0000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26D82E7C0000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A102DA90000000000000000 /* BEEP.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		3FCF86CE0000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BCA85840000000000000000 /* UIKit.framework */,
+				D6028B700000000000000000 /* MapKit.framework */,
+				2293914F0000000000000000 /* Foundation.framework */,
+				15FE73980000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		1C2508A20000000000000000 /* BEEP */ = {
+			isa = PBXGroup;
+			children = (
+				38632FA60000000000000000 /* AppDelegate.h */,
+				33BBB79B0000000000000000 /* Default-568h@2x.png */,
+				3719E11D0000000000000000 /* Entitlements.plist */,
+				8EF203300000000000000000 /* Info.plist */,
+				6419BE600000000000000000 /* RootController.h */,
+				19A23DB00000000000000000 /* RootController_iPad.xib */,
+				2544A2070000000000000000 /* RootController_iPhone.xib */,
+				2BCE11EF0000000000000000 /* Supporting Files */,
+			);
+			name = "BEEP";
+			sourceTree = "<group>";
+		};
+		2BCE11EF0000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D7D26B00000000000000000 /* AppDelegate.m */,
+				1F06111C0000000000000000 /* RootController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3351DD00000000000000000 /* BEEP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D07CF00000000000000000 /* Build configuration list for PBXNativeTarget "BEEP" */;
+			buildPhases = (
+				3C0B97140000000000000000 /* Sources */,
+				1171E2C80000000000000000 /* Frameworks */,
+				24F6369F0000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BEEP";
+			productName = "BEEP";
+			productReference = 1A102DA90000000000000000 /* BEEP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		802C03000000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 118D55700000000000000000 /* Build configuration list for PBXProject "BEEP" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 318B54560000000000000000;
+			productRefGroup = 26D82E7C0000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3351DD00000000000000000 /* BEEP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24F6369F0000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302AAAFD0000000000000000 /* Default-568h@2x.png in Resources */,
+				55E139500000000000000000 /* Info.plist in Resources */,
+				3388D47F0000000000000000 /* Entitlements.plist in Resources */,
+				21B395690000000000000000 /* RootController_iPhone.xib in Resources */,
+				3E09173D0000000000000000 /* RootController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C0B97140000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D223080000000000000000 /* AppDelegate.h in Sources */,
+				29EC1A120000000000000000 /* AppDelegate.m in Sources */,
+				2B08F4800000000000000000 /* RootController.h in Sources */,
+				1B75047E0000000000000000 /* RootController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29506FC00000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		3665AF7D0000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "BEEP";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		118D55700000000000000000 /* Build configuration list for PBXProject "BEEP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29506FC00000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		F5D07CF00000000000000000 /* Build configuration list for PBXNativeTarget "BEEP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3665AF7D0000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 802C03000000000000000000 /* Project object */;
+}

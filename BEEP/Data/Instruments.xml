@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ArrayOfInstrumentData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<InstrumentData>
+		<Id>1</Id>
+		<Name>Prophet 08</Name>
+		<Manufacturer>100</Manufacturer>
+	</InstrumentData>
+	<InstrumentData>
+		<Id>2</Id>
+		<Name>Prophet 5</Name>
+		<Manufacturer>100</Manufacturer>
+	</InstrumentData>
+	<InstrumentData>
+		<Id>4</Id>
+		<Name>Tempest</Name>
+		<Manufacturer>100</Manufacturer>
+	</InstrumentData>
+	<InstrumentData>
+		<Id>3</Id>
+		<Name>Micro Korg</Name>
+		<Manufacturer>101</Manufacturer>
+	</InstrumentData>
+	<InstrumentData>
+		<Id>5</Id>
+		<Name>Sub Phatty</Name>
+		<Manufacturer>105</Manufacturer>
+		<InterpreterName>Common.Data.Interpreters.MoogSubPhattyInterpreter</InterpreterName>
+	</InstrumentData>
+	<InstrumentData>
+		<Id>6</Id>
+		<Name>Lil Phatty</Name>
+		<Manufacturer>105</Manufacturer>
+	</InstrumentData>
+	<InstrumentData>
+		<Id>7</Id>
+		<Name>Lil Phatty II</Name>
+		<Manufacturer>105</Manufacturer>
+	</InstrumentData>
+</ArrayOfInstrumentData>

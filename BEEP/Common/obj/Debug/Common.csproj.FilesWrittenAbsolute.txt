@@ -1,0 +1,5 @@
+/Users/donaldbellenger/Google Drive/BEEP/BEEP/Common/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/donaldbellenger/Google Drive/BEEP/BEEP/Common/bin/Debug/Common.dll.mdb
+/Users/donaldbellenger/Google Drive/BEEP/BEEP/Common/bin/Debug/Common.dll
+/Users/donaldbellenger/Google Drive/BEEP/BEEP/Common/obj/Debug/Common.dll
+/Users/donaldbellenger/Google Drive/BEEP/BEEP/Common/obj/Debug/Common.dll.mdb

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ArrayOfManufacturerData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ManufacturerData>
+		<Id>100</Id>
+		<Name>Dave Smith Instruments</Name>
+	</ManufacturerData>
+	<ManufacturerData>
+		<Id>102</Id>
+		<Name>Sequential Circuits</Name>
+	</ManufacturerData>
+	<ManufacturerData>
+		<Id>101</Id>
+		<Name>Korg</Name>
+	</ManufacturerData>
+	<ManufacturerData>
+		<Id>105</Id>
+		<Name>Moog</Name>
+	</ManufacturerData>
+	<ManufacturerData>
+		<Id>106</Id>
+		<Name>Access</Name>
+	</ManufacturerData>
+	<ManufacturerData>
+		<Id>107</Id>
+		<Name>Casio</Name>
+	</ManufacturerData>
+	<ManufacturerData>
+		<Id>103</Id>
+		<Name>Yamaha</Name>
+	</ManufacturerData>
+	<ManufacturerData>
+		<Id>104</Id>
+		<Name>Roland</Name>
+	</ManufacturerData>
+</ArrayOfManufacturerData>

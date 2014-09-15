@@ -1,0 +1,250 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77D7A2500000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E86C300000000000000000 /* UIKit.framework */; };
+		29131D580000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA429F60000000000000000 /* MapKit.framework */; };
+		3E4685F00000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D7928E00000000000000000 /* Foundation.framework */; };
+		31B168390000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354274D70000000000000000 /* CoreGraphics.framework */; };
+		2741005F0000000000000000 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AD20CFD0000000000000000 /* Default-568h@2x.png */; };
+		38E35C590000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 575950000000000000000000 /* Info.plist */; };
+		270E1D430000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A9F29E10000000000000000 /* Entitlements.plist */; };
+		1538DE2D0000000000000000 /* RootController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C9EACB0000000000000000 /* RootController_iPhone.xib */; };
+		318E60010000000000000000 /* RootController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 351F6C9F0000000000000000 /* RootController_iPad.xib */; };
+		387D96210000000000000000 /* RootViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C0EA2BF0000000000000000 /* RootViewController_iPhone.xib */; };
+		26A8570B0000000000000000 /* RootViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A3963A90000000000000000 /* RootViewController_iPad.xib */; };
+		2BE8786A0000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 2F7985080000000000000000 /* AppDelegate.h */; };
+		3817CFE90000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA8DC870000000000000000 /* AppDelegate.m */; };
+		146D51BD0000000000000000 /* RootController.h in Sources */ = {isa = PBXBuildFile; fileRef = 17FE5E5B0000000000000000 /* RootController.h */; };
+		2D31C6F30000000000000000 /* RootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C2D3910000000000000000 /* RootController.m */; };
+		2EE0DBB40000000000000000 /* RootViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 3271E8520000000000000000 /* RootViewController.h */; };
+		3B1033330000000000000000 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA13FD10000000000000000 /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CBF11310000000000000000 /* Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Mobile.app"; path = "Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0E86C300000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		2CA429F60000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		1D7928E00000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		354274D70000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		2AD20CFD0000000000000000 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		575950000000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		2A9F29E10000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		18C9EACB0000000000000000 /* RootController_iPhone.xib */ = {isa = PBXFileReference; name = "RootController_iPhone.xib"; path = "RootController_iPhone.xib"; sourceTree = "<group>"; };
+		351F6C9F0000000000000000 /* RootController_iPad.xib */ = {isa = PBXFileReference; name = "RootController_iPad.xib"; path = "RootController_iPad.xib"; sourceTree = "<group>"; };
+		3C0EA2BF0000000000000000 /* RootViewController_iPhone.xib */ = {isa = PBXFileReference; name = "RootViewController_iPhone.xib"; path = "RootViewController_iPhone.xib"; sourceTree = "<group>"; };
+		2A3963A90000000000000000 /* RootViewController_iPad.xib */ = {isa = PBXFileReference; name = "RootViewController_iPad.xib"; path = "RootViewController_iPad.xib"; sourceTree = "<group>"; };
+		2F7985080000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		3BA8DC870000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		17FE5E5B0000000000000000 /* RootController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RootController.h"; path = "RootController.h"; sourceTree = "<group>"; };
+		30C2D3910000000000000000 /* RootController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "RootController.m"; path = "RootController.m"; sourceTree = "<group>"; };
+		3271E8520000000000000000 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RootViewController.h"; path = "RootViewController.h"; sourceTree = "<group>"; };
+		3EA13FD10000000000000000 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "RootViewController.m"; path = "RootViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		196DA0760000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D7A2500000000000000000 /* UIKit.framework in Frameworks */,
+				29131D580000000000000000 /* MapKit.framework in Frameworks */,
+				3E4685F00000000000000000 /* Foundation.framework in Frameworks */,
+				31B168390000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		398712040000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				2420C6500000000000000000 /* Mobile */,
+				43A37DE00000000000000000 /* Frameworks */,
+				2ED3EC2A0000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2ED3EC2A0000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CBF11310000000000000000 /* Mobile.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		43A37DE00000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0E86C300000000000000000 /* UIKit.framework */,
+				2CA429F60000000000000000 /* MapKit.framework */,
+				1D7928E00000000000000000 /* Foundation.framework */,
+				354274D70000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		2420C6500000000000000000 /* Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				2F7985080000000000000000 /* AppDelegate.h */,
+				2AD20CFD0000000000000000 /* Default-568h@2x.png */,
+				2A9F29E10000000000000000 /* Entitlements.plist */,
+				575950000000000000000000 /* Info.plist */,
+				17FE5E5B0000000000000000 /* RootController.h */,
+				351F6C9F0000000000000000 /* RootController_iPad.xib */,
+				18C9EACB0000000000000000 /* RootController_iPhone.xib */,
+				3271E8520000000000000000 /* RootViewController.h */,
+				2A3963A90000000000000000 /* RootViewController_iPad.xib */,
+				3C0EA2BF0000000000000000 /* RootViewController_iPhone.xib */,
+				BCF06DC00000000000000000 /* Supporting Files */,
+			);
+			name = "Mobile";
+			sourceTree = "<group>";
+		};
+		BCF06DC00000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BA8DC870000000000000000 /* AppDelegate.m */,
+				30C2D3910000000000000000 /* RootController.m */,
+				3EA13FD10000000000000000 /* RootViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25044EA10000000000000000 /* Mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 220BEB570000000000000000 /* Build configuration list for PBXNativeTarget "Mobile" */;
+			buildPhases = (
+				798616000000000000000000 /* Sources */,
+				196DA0760000000000000000 /* Frameworks */,
+				308300EB0000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mobile";
+			productName = "Mobile";
+			productReference = 2CBF11310000000000000000 /* Mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A5128C70000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1758C57D0000000000000000 /* Build configuration list for PBXProject "Mobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 398712040000000000000000;
+			productRefGroup = 2ED3EC2A0000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25044EA10000000000000000 /* Mobile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		308300EB0000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2741005F0000000000000000 /* Default-568h@2x.png in Resources */,
+				38E35C590000000000000000 /* Info.plist in Resources */,
+				270E1D430000000000000000 /* Entitlements.plist in Resources */,
+				1538DE2D0000000000000000 /* RootController_iPhone.xib in Resources */,
+				318E60010000000000000000 /* RootController_iPad.xib in Resources */,
+				387D96210000000000000000 /* RootViewController_iPhone.xib in Resources */,
+				26A8570B0000000000000000 /* RootViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		798616000000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE8786A0000000000000000 /* AppDelegate.h in Sources */,
+				3817CFE90000000000000000 /* AppDelegate.m in Sources */,
+				146D51BD0000000000000000 /* RootController.h in Sources */,
+				2D31C6F30000000000000000 /* RootController.m in Sources */,
+				2EE0DBB40000000000000000 /* RootViewController.h in Sources */,
+				3B1033330000000000000000 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18D4F7220000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		CA59FA300000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "Mobile";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1758C57D0000000000000000 /* Build configuration list for PBXProject "Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D4F7220000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		220BEB570000000000000000 /* Build configuration list for PBXNativeTarget "Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA59FA300000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A5128C70000000000000000 /* Project object */;
+}
