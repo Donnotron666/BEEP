@@ -1,25 +1,18 @@
 ﻿<Properties MonoDevelop.MonoMac.LastXamMacNagTime="9/15/2014 5:10:34 AM">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhoneRetina.7.1" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Common/Data/DataStore.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BEEP/AppDelegate.cs">
     <Files>
-      <File FileName="Common/Data/DataStore.cs" Line="4" Column="4" />
-      <File FileName="BEEP/UI/PatchesViewSource.cs" Line="1" Column="1" />
+      <File FileName="BEEP/UI/PatchesViewSource.cs" Line="3" Column="3" />
       <File FileName="BEEP/UI/PatchesViewCell.cs" Line="1" Column="1" />
       <File FileName="BEEP/Core/Application/MobileBeepApp.cs" Line="1" Column="1" />
-      <File FileName="BEEP/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="BEEP/AppDelegate.cs" Line="28" Column="28" />
+      <File FileName="Common/Data/Interpreters/DSIProphet08Interpreter.cs" Line="1" Column="1" />
+      <File FileName="Common/Data/Loaders/PatchLoader.cs" Line="1" Column="1" />
+      <File FileName="Common/Data/Loaders/XMLLoader.cs" Line="1" Column="1" />
+      <File FileName="Common/Data/BasicData.cs" Line="1" Column="1" />
+      <File FileName="Common/Data/User/Preferences.cs" Line="1" Column="1" />
+      <File FileName="Common/Data/DataStore.cs" Line="3" Column="3" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="Common" expanded="True">
-            <Node name="Data" expanded="True" />
-          </Node>
-          <Node name="Mobile" expanded="True">
-            <Node name="References" expanded="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

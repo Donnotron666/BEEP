@@ -3,12 +3,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D8D1DF14-D3B8-45C9-A189-A695FA2B273F}</ProjectGuid>
-    <ProjectTypeGuids>{6BC8ED88-2882-458C-8E55-DFD12B67127B};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{E745FC5A-64FB-45C9-8406-814AEA0CDB40}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>Common</RootNamespace>
-    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <AssemblyName>Common</AssemblyName>
+    <TargetFrameworkProfile>Profile5</TargetFrameworkProfile>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -32,6 +33,9 @@
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
+    <Reference Include="mscorlib">
+      <HintPath>..\..\..\..\..\..\..\Library\Frameworks\Mono.framework\Libraries\mono\4.0\mscorlib.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
@@ -45,6 +49,7 @@
     <Folder Include="Core\Net\Requests\" />
     <Folder Include="Data\Interpreters\" />
     <Folder Include="Core\Reflection\" />
+    <Folder Include="Core\IO\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -61,15 +66,14 @@
     <Compile Include="Data\Loaders\XMLLoader.cs" />
     <Compile Include="Core\Application\IBeepApp.cs" />
     <Compile Include="Data\User\Preferences.cs" />
-    <Compile Include="Core\IO\ITransmitter.cs" />
     <Compile Include="Core\Net\Requests\PatchesForInstrumentRequest.cs" />
     <Compile Include="Core\Net\Requests\WebRequest.cs" />
-    <Compile Include="Data\Interpreters\IInterpreter.cs" />
-    <Compile Include="Data\Interpreters\DSIProphet08Interpreter.cs" />
-    <Compile Include="Data\Interpreters\PatchFactory.cs" />
     <Compile Include="Core\Reflection\ReflectionUtils.cs" />
+    <Compile Include="Data\Loaders\PatchLoader.cs" />
+    <Compile Include="Data\Interpreters\DSIProphet08Interpreter.cs" />
+    <Compile Include="Data\Interpreters\IInterpreter.cs" />
     <Compile Include="Data\Interpreters\KorgMicroKorgInterpreter.cs" />
     <Compile Include="Data\Interpreters\MoogSubPhattyInterpreter.cs" />
-    <Compile Include="Data\Loaders\PatchLoader.cs" />
+    <Compile Include="Data\Interpreters\PatchFactory.cs" />
   </ItemGroup>
 </Project>

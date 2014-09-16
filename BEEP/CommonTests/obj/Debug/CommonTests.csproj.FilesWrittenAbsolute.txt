@@ -1,0 +1,8 @@
+/Users/donaldbellenger/Documents/BEEP-master/BEEP/BEEP/CommonTests/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/donaldbellenger/Documents/BEEP-master/BEEP/BEEP/CommonTests/bin/Debug/CommonTests.dll.mdb
+/Users/donaldbellenger/Documents/BEEP-master/BEEP/BEEP/CommonTests/bin/Debug/CommonTests.dll
+/Users/donaldbellenger/Documents/BEEP-master/BEEP/BEEP/CommonTests/obj/Debug/CommonTests.dll
+/Users/donaldbellenger/Documents/BEEP-master/BEEP/BEEP/CommonTests/obj/Debug/CommonTests.dll.mdb
+/Users/donaldbellenger/Documents/BEEP-master/BEEP/BEEP/CommonTests/bin/Debug/Common.dll
+/Users/donaldbellenger/Documents/BEEP-master/BEEP/BEEP/CommonTests/bin/Debug/Common.dll.mdb
+/Users/donaldbellenger/Documents/BEEP-master/BEEP/BEEP/CommonTests/bin/Debug/nunit.framework.dll
