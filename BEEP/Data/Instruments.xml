@@ -36,4 +36,9 @@
 		<Name>Lil Phatty II</Name>
 		<Manufacturer>105</Manufacturer>
 	</InstrumentData>
+	<InstrumentData>
+		<Id>8</Id>
+		<Name>Mopho</Name>
+		<Manufacturer>100</Manufacturer>
+	</InstrumentData>
 </ArrayOfInstrumentData>

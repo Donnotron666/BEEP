@@ -75,5 +75,8 @@
     <Compile Include="Data\Interpreters\KorgMicroKorgInterpreter.cs" />
     <Compile Include="Data\Interpreters\MoogSubPhattyInterpreter.cs" />
     <Compile Include="Data\Interpreters\PatchFactory.cs" />
+    <Compile Include="Data\Interpreters\DSIMophoInterpreter.cs" />
+    <Compile Include="Core\IO\SysExStream.cs" />
+    <Compile Include="Core\Attributes\PatchAttributes.cs" />
   </ItemGroup>
 </Project>
