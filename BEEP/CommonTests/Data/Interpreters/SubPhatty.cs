@@ -2,6 +2,7 @@
 using NUnit.Framework;
 using Common.Data.Interpreters;
 using Common.Data;
+using Common.Core.IO;
 
 namespace CommonTests.Data.Interpreters
 {
@@ -11,10 +12,10 @@ namespace CommonTests.Data.Interpreters
 		[Test()]
 		public void TestRead()
 		{
-			byte[] bytes = LoadBytes ("/../../../Data/Patches/5/Bonobass.syx");
+			SysExStream stream = LoadBytes ("/../../../Data/Patches/5/Bonobass.syx");
 
 			var interpreter = new MoogSubPhattyInterpreter ();
-			interpreter.Interpret (bytes);
+			interpreter.Interpret (stream);
 
 			Assert.True (true);
 		}

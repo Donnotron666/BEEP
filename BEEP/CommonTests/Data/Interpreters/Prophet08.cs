@@ -11,11 +11,11 @@ namespace CommonTests.Data.Interpreters
 		[Test()]
 		public void TestRead()
 		{
-			var hexStream = LoadHex ("/../../../Data/Patches/1/CB_Dr3am_Arp.syx");
+			var stream = LoadBytes ("/../../../Data/Patches/1/CB_Dr3am_Arp.syx");
 
 			var interpreter = new DSIProphet08Interpreter ();
 
-			interpreter.Interpret (hexStream);
+			interpreter.Interpret (stream);
 			Assert.True (true);
 		}
 	}

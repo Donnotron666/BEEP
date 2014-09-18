@@ -29,7 +29,7 @@ namespace Common.Data.Interpreters
 			}
 
 			IInterpreter interpreter = InstanceTable [type];
-			return interpreter.Interpret (data);
+			return interpreter.Interpret (new Common.Core.IO.SysExStream(data));
 		}
 	}
 }

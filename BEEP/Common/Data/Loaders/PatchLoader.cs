@@ -21,16 +21,12 @@ namespace Common.Data.Loaders
 			FilePath = path + relativePath;
 		}
 
-		public SysExStream GetHex()
+
+		public SysExStream GetBytes()
 		{
-			var bytes = GetBytes ();
+			var bytes = File.ReadAllBytes (FilePath);
 			SysExStream ret = new SysExStream(bytes);
 			return ret;
-		}
-
-		public byte[] GetBytes()
-		{
-			return File.ReadAllBytes (FilePath);
 		}
 	}
 }

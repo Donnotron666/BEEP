@@ -1,4 +1,5 @@
 ﻿using System;
+using Common.Core.IO;
 
 namespace Common.Data.Interpreters
 {
@@ -8,14 +9,12 @@ namespace Common.Data.Interpreters
 		{
 		}
 
-		#region IInterpreter implementation
 
-		public PatchData Interpret(byte[] bytes)
+		public PatchData Interpret(SysExStream bytes)
 		{
-			return null;
+			throw new NotImplementedException ();
 		}
 
-		#endregion
 	}
 }
 

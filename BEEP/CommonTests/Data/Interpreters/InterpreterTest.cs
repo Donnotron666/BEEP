@@ -14,15 +14,11 @@ namespace CommonTests.Data.Interpreters
 
 		}
 
-		public byte[] LoadBytes(string path)
+		public SysExStream LoadBytes(string path)
 		{
 			return new PatchLoader (path).GetBytes ();
 		}
 
-		public SysExStream LoadHex(string path)
-		{
-			return new PatchLoader (path).GetHex ();
-		}
 
 	}
 }

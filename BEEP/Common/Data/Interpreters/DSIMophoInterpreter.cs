@@ -8,8 +8,7 @@ namespace Common.Data.Interpreters
 		{
 		}
 
-
-		public PatchData Interpret(byte[] bytes)
+		public PatchData Interpret(Common.Core.IO.SysExStream bytes)
 		{
 			throw new NotImplementedException ();
 		}

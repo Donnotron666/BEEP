@@ -1,6 +1,0 @@
-/Users/donaldbellenger/Google Drive/BEEP/BEEP/DataEditor/obj/iPhoneSimulator/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
-/Users/donaldbellenger/Google Drive/BEEP/BEEP/DataEditor/obj/iPhoneSimulator/Debug/DataEditor.gtk-gui.gui.stetic
-/Users/donaldbellenger/Google Drive/BEEP/BEEP/DataEditor/bin/Debug/DataEditor.exe.mdb
-/Users/donaldbellenger/Google Drive/BEEP/BEEP/DataEditor/bin/Debug/DataEditor.exe
-/Users/donaldbellenger/Google Drive/BEEP/BEEP/DataEditor/obj/iPhoneSimulator/Debug/DataEditor.exe
-/Users/donaldbellenger/Google Drive/BEEP/BEEP/DataEditor/obj/iPhoneSimulator/Debug/DataEditor.exe.mdb
