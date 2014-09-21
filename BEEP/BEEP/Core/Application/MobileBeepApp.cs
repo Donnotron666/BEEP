@@ -16,6 +16,7 @@ namespace Mobile.Core.Application
 		public MobileBeepApp ()
 		{
 
+			Settings.AbsoluteDataPath = "/Users/donaldbellenger/Documents/BEEP-master/BEEP/BEEP/Data/";
 
 		}
 
@@ -26,10 +27,10 @@ namespace Mobile.Core.Application
 
 			DataStore = DataStore.Instance;
 			Log.Log ("Loading Instrument Data");
-			new XMLLoader<InstrumentData> ("/../../../Data/Instruments.xml").LoadIntoDataStore(DataStore);
+			new XMLLoader<InstrumentData> ("Instruments.xml").LoadIntoDataStore(DataStore);
 
 			Log.Log ("Loading Manufacturer Data");
-			new XMLLoader<ManufacturerData> ("/../../../Data/Manufacturers.xml").LoadIntoDataStore(DataStore);
+			new XMLLoader<ManufacturerData> ("Manufacturers.xml").LoadIntoDataStore(DataStore);
 
 			Log.Log ("{0} Items loaded into DataStore", DataStore.Count);	
 		}

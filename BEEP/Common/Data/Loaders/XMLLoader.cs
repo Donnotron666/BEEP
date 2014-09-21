@@ -4,6 +4,7 @@ using System.IO;
 using System.Reflection;
 using Common.Logging;
 using System.Xml.Serialization;
+using Common.Core.Application;
 
 namespace Common.Data.Loaders
 {
@@ -23,7 +24,7 @@ namespace Common.Data.Loaders
 			string path = Uri.UnescapeDataString(uri.Path);
 			path = Path.GetDirectoryName(path);
 
-			FilePath = path + relativePath;
+			FilePath = Settings.AbsoluteDataPath + relativePath;
 
 
 		}

@@ -9,7 +9,7 @@ namespace Mobile.UI
 {
 	public partial class RootViewController : UITableViewController
 	{
-		public string[] tableItems = {"Connected Instruments(0)", "Patches", "Settings"};
+		public string[] tableItems = {"Connected Instruments(0)", "My Banks", "My Instruments", "Community Patches", "Settings"};
 
 		public RootViewController () : base ("RootViewController", null)
 		{

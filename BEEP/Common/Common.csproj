@@ -79,5 +79,6 @@
     <Compile Include="Data\Interpreters\DSIMophoInterpreter.cs" />
     <Compile Include="Core\Attributes\PatchAttributes.cs" />
     <Compile Include="Core\SysEx\SysExStream.cs" />
+    <Compile Include="Core\Application\Settings.cs" />
   </ItemGroup>
 </Project>
