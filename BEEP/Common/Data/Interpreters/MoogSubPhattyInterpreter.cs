@@ -1,5 +1,5 @@
 ﻿using System;
-using Common.Core.IO;
+using Common.Core.SysEx;
 
 namespace Common.Data.Interpreters
 {

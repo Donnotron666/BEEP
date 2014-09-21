@@ -42,11 +42,14 @@
   <ItemGroup>
     <Folder Include="Data\" />
     <Folder Include="Data\Interpreters\" />
+    <Folder Include="Core\" />
+    <Folder Include="Core\SysEx\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\Interpreters\SubPhatty.cs" />
     <Compile Include="Data\Interpreters\InterpreterTest.cs" />
     <Compile Include="Data\Interpreters\Mopho.cs" />
     <Compile Include="Data\Interpreters\Prophet08.cs" />
+    <Compile Include="Core\SysEx\SysExStreamTests.cs" />
   </ItemGroup>
 </Project>

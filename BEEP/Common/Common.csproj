@@ -50,6 +50,7 @@
     <Folder Include="Data\Interpreters\" />
     <Folder Include="Core\Reflection\" />
     <Folder Include="Core\IO\" />
+    <Folder Include="Core\SysEx\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -76,7 +77,7 @@
     <Compile Include="Data\Interpreters\MoogSubPhattyInterpreter.cs" />
     <Compile Include="Data\Interpreters\PatchFactory.cs" />
     <Compile Include="Data\Interpreters\DSIMophoInterpreter.cs" />
-    <Compile Include="Core\IO\SysExStream.cs" />
     <Compile Include="Core\Attributes\PatchAttributes.cs" />
+    <Compile Include="Core\SysEx\SysExStream.cs" />
   </ItemGroup>
 </Project>

@@ -1,4 +1,5 @@
 ﻿using System;
+using Common.Core.SysEx;
 
 namespace Common.Data.Interpreters
 {
@@ -8,7 +9,7 @@ namespace Common.Data.Interpreters
 		{
 		}
 
-		public PatchData Interpret(Common.Core.IO.SysExStream bytes)
+		public PatchData Interpret(SysExStream bytes)
 		{
 			throw new NotImplementedException ();
 		}

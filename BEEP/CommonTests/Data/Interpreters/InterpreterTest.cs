@@ -3,7 +3,7 @@ using System.IO;
 using Common.Data.Loaders;
 using Common.Data;
 using Common;
-using Common.Core.IO;
+using Common.Core.SysEx;
 
 namespace CommonTests.Data.Interpreters
 {

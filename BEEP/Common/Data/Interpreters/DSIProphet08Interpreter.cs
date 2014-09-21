@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using Common.Core.IO;
+using Common.Core.SysEx;
 
 namespace Common.Data.Interpreters
 {
@@ -20,7 +20,6 @@ namespace Common.Data.Interpreters
 		public PatchData Interpret(SysExStream sysEx)
 		{
 			//temp attribute placeholder!!
-			var dict = new Dictionary<string, object> ();
 			//we expect 439 bytes of patch data after the first 6 hex bytes.
 			var start = sysEx.ReadByte ();
 			var ManufacturerId = sysEx.ReadByte ();
@@ -29,6 +28,8 @@ namespace Common.Data.Interpreters
 			var BankNumber = sysEx.ReadByte ();
 			var programNumber = sysEx.ReadByte ();
 			var patchData = sysEx.ReadBlock (439);
+			var programPacket = patchData.ReadMSBitPacket ();
+
 			var endProgram = sysEx.ReadString ();
 			//endProgram should == 0xF7
 			return null;

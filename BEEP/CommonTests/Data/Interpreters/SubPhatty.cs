@@ -2,7 +2,7 @@
 using NUnit.Framework;
 using Common.Data.Interpreters;
 using Common.Data;
-using Common.Core.IO;
+using Common.Core.SysEx;
 
 namespace CommonTests.Data.Interpreters
 {
