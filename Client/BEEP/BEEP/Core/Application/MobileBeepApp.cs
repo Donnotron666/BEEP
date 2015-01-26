@@ -4,6 +4,8 @@ using MonoTouch.UIKit;
 using Common.Data;
 using Common.Data.Loaders;
 using Common.Logging;
+using Common.Core.Net;
+using Mobile.Core.Application.States;
 
 namespace Mobile.Core.Application
 {
@@ -13,38 +15,31 @@ namespace Mobile.Core.Application
 
 		Logger Log = LogManager.Create("MobileBeepApp");
 
+		public StateMachine StateMachine { get; private set; }
+		public Framework Framework {get;private set;}
+
 		public MobileBeepApp ()
 		{
+
+			Framework = new Framework ();
+			StateMachine = new StateMachine ();
 
 			Settings.AbsoluteDataPath = "/Users/donaldbellenger/Documents/BEEP-master/BEEP/BEEP/Data/";
 
 		}
 
-		#region BeepApp implementation
-
-		public void InitAllData()
+		public void StartStateMachine()
 		{
+			StateMachine.Add (new LoginState(this));
+			StateMachine.Add (new LoadStaticDataState (this));
+			StateMachine.Add (new LoadUserDataState (this));
+			StateMachine.Add (new AwakeState (this));
+			StateMachine.Add (new KillState (this));
 
-			DataStore = DataStore.Instance;
-			Log.Log ("Loading Instrument Data");
-			new XMLLoader<InstrumentData> ("Instruments.xml").LoadIntoDataStore(DataStore);
-
-			Log.Log ("Loading Manufacturer Data");
-			new XMLLoader<ManufacturerData> ("Manufacturers.xml").LoadIntoDataStore(DataStore);
-
-			Log.Log ("{0} Items loaded into DataStore", DataStore.Count);	
-		}
-
-		public void InitUserSettings()
-		{
+			StateMachine.Start ();
 
 		}
 
-		public void LoadUserData()
-		{
-
-		}
-		#endregion
 	}
 }
 

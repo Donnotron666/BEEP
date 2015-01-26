@@ -1,12 +1,13 @@
 ﻿using System;
+using Common.Core.Net;
 
 namespace Common.Core.Application
 {
 	public interface IBeepApp 
 	{
-		void InitAllData();
-		void InitUserSettings();
-		void LoadUserData();
+		void StartStateMachine();
+		Framework Framework { get; }
+		StateMachine StateMachine { get; }
 	}
 }
 

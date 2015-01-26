@@ -25,6 +25,7 @@
     <MtouchI18n>
     </MtouchI18n>
     <MtouchArch>i386</MtouchArch>
+    <CodesignKey>iPhone Developer: Donald Bellenger (69XW2LLMT2)</CodesignKey>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>full</DebugType>
@@ -116,6 +117,11 @@
     <Compile Include="UI\NavigationController.designer.cs">
       <DependentUpon>NavigationController.cs</DependentUpon>
     </Compile>
+    <Compile Include="Core\Application\States\LoginState.cs" />
+    <Compile Include="Core\Application\States\LoadStaticDataState.cs" />
+    <Compile Include="Core\Application\States\LoadUserDataState.cs" />
+    <Compile Include="Core\Application\States\AwakeState.cs" />
+    <Compile Include="Core\Application\States\KillState.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.MonoTouch.CSharp.targets" />
@@ -123,6 +129,7 @@
     <Folder Include="Core\" />
     <Folder Include="Core\Application\" />
     <Folder Include="UI\" />
+    <Folder Include="Core\Application\States\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="UI\RootViewController.xib" />

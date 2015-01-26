@@ -34,7 +34,7 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="mscorlib">
-      <HintPath>..\..\..\..\..\..\..\Library\Frameworks\Mono.framework\Libraries\mono\4.0\mscorlib.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Library\Frameworks\Mono.framework\Libraries\mono\4.0\mscorlib.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -80,5 +80,9 @@
     <Compile Include="Core\Attributes\PatchAttributes.cs" />
     <Compile Include="Core\SysEx\SysExStream.cs" />
     <Compile Include="Core\Application\Settings.cs" />
+    <Compile Include="Core\Net\Requests\LoginRequest.cs" />
+    <Compile Include="Core\Net\Framework.cs" />
+    <Compile Include="Core\Application\AppState.cs" />
+    <Compile Include="Core\Application\StateMachine.cs" />
   </ItemGroup>
 </Project>

@@ -5,7 +5,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>BEEP</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.your-company.BEEP</string>
+	<string>FU3B6S9DW7.com.donnotron.BEEP</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
@@ -37,5 +37,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIMainNibFile</key>
+	<string>UI/RootViewController</string>
 </dict>
 </plist>

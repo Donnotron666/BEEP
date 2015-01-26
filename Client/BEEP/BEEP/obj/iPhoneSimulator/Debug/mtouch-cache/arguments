@@ -1,16 +1,18 @@
-# Version: 8.0.0.36 (921d22f)
-# [first argument, ignore] # /Users/donaldbellenger/Documents/BEEP-master/BEEP/BEEP/BEEP/bin/iPhoneSimulator/Debug/mtouch.exe
-/Library/Frameworks/Xamarin.iOS.framework/Versions/8.0.0.36/bin/mtouch \
+# Version: 8.6.0.51 (dfb682f)
+# [first argument, ignore] # /Users/don/BEEP/Client/BEEP/BEEP/bin/iPhoneSimulator/Debug/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/8.6.0.51/bin/mtouch-64 \
 	-sdkroot \
 	/Applications/Xcode.app/Contents/Developer \
 	--cache \
-	/Users/donaldbellenger/Documents/BEEP-master/BEEP/BEEP/BEEP/obj/iPhoneSimulator/Debug/mtouch-cache \
+	/Users/don/BEEP/Client/BEEP/BEEP/obj/iPhoneSimulator/Debug/mtouch-cache \
+	--executable \
+	BEEP \
 	--nomanifest \
 	--nosign \
 	-sim \
-	/Users/donaldbellenger/Documents/BEEP-master/BEEP/BEEP/BEEP/bin/iPhoneSimulator/Debug/Mobile.app \
+	/Users/don/BEEP/Client/BEEP/BEEP/bin/iPhoneSimulator/Debug/BEEP.app \
 	-r \
-	/Users/donaldbellenger/Documents/BEEP-master/BEEP/BEEP/Common/bin/Debug/Common.dll \
+	/Users/don/BEEP/Client/BEEP/Common/bin/Debug/Common.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.dll \
 	-r \
@@ -26,4 +28,6 @@
 	-targetver \
 	7.0 \
 	--abi=i386 \
-	/Users/donaldbellenger/Documents/BEEP-master/BEEP/BEEP/BEEP/bin/iPhoneSimulator/Debug/BEEP.exe \
+	--gcc_flags \
+	"-Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker \"/Users/don/BEEP/Client/BEEP/BEEP/bin/iPhoneSimulator/Debug/BEEP.xcent\"" \
+	/Users/don/BEEP/Client/BEEP/BEEP/bin/iPhoneSimulator/Debug/BEEP.exe \
