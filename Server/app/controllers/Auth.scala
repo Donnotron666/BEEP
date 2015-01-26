@@ -20,11 +20,12 @@ object Auth extends Controller {
 
     if(isOk)
     {
-      Ok(views.xml.authOk())
+      Ok(views.xml.authOk()).withSession(Security.username -> id)
     } else {
       Ok(views.xml.authFailure())
     }
   }
+
 
   def check(email:String, password:String): Boolean =
   {

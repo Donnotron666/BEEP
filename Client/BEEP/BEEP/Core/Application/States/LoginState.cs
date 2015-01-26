@@ -19,7 +19,7 @@ namespace Mobile.Core.Application.States
 		public override void Start ()
 		{
 			var req = new LoginRequest ();
-			App.Framework.ExecuteRequest (req);
+			App.Framework.ExecuteRequest(req);
 		}
 
 		public override void End ()

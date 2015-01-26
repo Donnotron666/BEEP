@@ -68,7 +68,6 @@
     <Compile Include="Core\Application\IBeepApp.cs" />
     <Compile Include="Data\User\Preferences.cs" />
     <Compile Include="Core\Net\Requests\PatchesForInstrumentRequest.cs" />
-    <Compile Include="Core\Net\Requests\WebRequest.cs" />
     <Compile Include="Core\Reflection\ReflectionUtils.cs" />
     <Compile Include="Data\Loaders\PatchLoader.cs" />
     <Compile Include="Data\Interpreters\DSIProphet08Interpreter.cs" />
@@ -84,5 +83,6 @@
     <Compile Include="Core\Net\Framework.cs" />
     <Compile Include="Core\Application\AppState.cs" />
     <Compile Include="Core\Application\StateMachine.cs" />
+    <Compile Include="Core\Net\Requests\FrameworkRequest.cs" />
   </ItemGroup>
 </Project>
