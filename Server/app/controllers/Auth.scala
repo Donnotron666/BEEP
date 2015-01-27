@@ -12,6 +12,8 @@ import logging._
 object Auth extends Controller {
 
   def authenticate() = Action {
+    val Log = LogManager.Create("auth")
+
     val id = "666";
     val email = "donnotron@gmail.com"
     val password = ""

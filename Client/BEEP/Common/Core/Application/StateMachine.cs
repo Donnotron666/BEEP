@@ -4,7 +4,7 @@ using Common.Logging;
 
 namespace Common.Core.Application
 {
-	public class StateMachine
+	public class StateMachine : ITickable
 	{
 		Logger Log = LogManager.Create("StateMachine");
 

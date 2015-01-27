@@ -1,18 +1,17 @@
 ﻿using System;
+using System.Linq;
 
 namespace Common.Core.Net.Requests
 {
+
 	public class LoginRequest : FrameworkRequest<LoginResponse>
 	{
-		public LoginRequest ()
+
+		public static string COOKIE_ID = "Set-Cookie";
+
+		public LoginRequest (Action<LoginResponse> successCB, Action failCB) : base (successCB, failCB)
 		{
 			this.URI = "auth";
-		}
-
-		public override void OnSuccess(LoginResponse response)
-		{
-			response.Framework.UserId = response.userId;
-			
 		}
 
 	}

@@ -15,6 +15,7 @@ namespace Mobile.UI
 		{
 		}
 
+
 		public override void DidReceiveMemoryWarning()
 		{
 			// Releases the view if it doesn't have a superview.

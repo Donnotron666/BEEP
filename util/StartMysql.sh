@@ -1,0 +1,1 @@
+sudo mysqld -u root

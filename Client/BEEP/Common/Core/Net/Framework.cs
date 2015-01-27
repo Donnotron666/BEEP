@@ -20,15 +20,23 @@ namespace Common.Core.Net
 		{
 		}
 
+		public void InitUserSerssion(string userId, string session)
+		{
+			this.UserId = userId;
+			this.SessionToken = session;
+		}
+
 		public void ExecuteRequest(FrameworkRequest req)
 		{
 			var http = WebRequest.Create ("http://localhost:9000/" + req.URI);
+			http.Headers.Add (HttpRequestHeader.Cookie, SessionToken);
 			var response = http.GetResponse ();
 		
 			var ser = new XmlSerializer (req.ResponseType);
 			FrameworkResponse responseObj = ser.Deserialize (response.GetResponseStream()) as FrameworkResponse;
 			responseObj.Response = response;
 			responseObj.Framework = this;
+
 			req.OnSuccess (responseObj);
 
 		}

@@ -1,0 +1,25 @@
+@import model._
+@(success: Boolean, results: List[Instrument])
+
+<?xml version="1.0" encoding="utf-8"?>
+<PatchesForInstrumentResponse>
+    <success>@success</success>
+    <Instruments>
+        @for(index<-0 until results.size) {
+            <Instrument>
+                <DataId>@results(index).dataId</DataId>
+                <Patches>
+                    @for(p<-0 until results(index).patches.size) {
+                    <Patch>
+                        <Name>@results(index).patches(p).name</Name>
+                        <PatchUTF>@results(index).patches(p).patchUTF</PatchUTF>
+                    </Patch>
+                    }
+
+
+                </Patches>
+            </Instrument>
+        }
+
+    </Instruments>
+</PatchesForInstrumentResponse>

@@ -84,5 +84,6 @@
     <Compile Include="Core\Application\AppState.cs" />
     <Compile Include="Core\Application\StateMachine.cs" />
     <Compile Include="Core\Net\Requests\FrameworkRequest.cs" />
+    <Compile Include="Core\Application\ITickable.cs" />
   </ItemGroup>
 </Project>
